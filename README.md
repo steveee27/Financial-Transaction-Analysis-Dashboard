@@ -98,7 +98,3 @@ This analysis can help the bank understand the distribution of their customersâ€
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-This version of the **README** now includes the description of the four datasets, and the link to the **Tableau dashboard** is placed at the beginning to catch users' attention. Let me know if any further changes are needed!
