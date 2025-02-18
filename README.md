@@ -17,8 +17,6 @@ You can interact with the **Financial Transaction Analysis Dashboard** directly 
 7. [Contributors](#contributors)
 8. [License](#license)
 
-![image](https://github.com/user-attachments/assets/3435c9a7-a51b-4561-96cb-87346faecc11)![image](https://github.com/user-attachments/assets/03f3fbf9-bb47-44b3-846f-e83cbfed3aba)
-
 ## Background
 
 The goal of this project is to develop a comprehensive **Financial Transaction Analysis Dashboard** that enables a detailed understanding of transactional activities, customer account statuses, and other key financial trends. This dashboard helps the financial institution better assess its customer base, detect trends in account activity, and identify potential areas for improvement in services offered.
@@ -46,6 +44,8 @@ To prepare the dataset for analysis, several preprocessing steps were carried ou
 4. **Date Handling**: The date data was processed to create weekly, monthly, and daily aggregations, making it easier to observe trends over time.
 
 ## Dashboard Visualizations
+
+![image](https://github.com/user-attachments/assets/3435c9a7-a51b-4561-96cb-87346faecc11)
 
 The dashboard provides an interactive platform to explore key insights from the data through various visualizations. The dashboard is created using **Tableau** and incorporates several types of visual elements for intuitive exploration.
 
