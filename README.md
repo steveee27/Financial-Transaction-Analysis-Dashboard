@@ -1,5 +1,10 @@
 # Financial Transaction Analysis Dashboard
 
+## Access the Dashboard
+
+You can interact with the **Financial Transaction Analysis Dashboard** directly through the following link:  
+[**View Tableau Dashboard**](https://public.tableau.com/views/FinancialTransaction_17398829010140/Dashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
 ## Table of Contents
 1. [Background](#background)
 2. [Dataset](#dataset)
@@ -8,8 +13,11 @@
     - [Filters](#filters)
     - [Visualizations](#visualizations)
 5. [Results](#results)
-6. [Contributors](#contributors)
-7. [License](#license)
+6. [Future Work](#future-work)
+7. [Contributors](#contributors)
+8. [License](#license)
+
+![image](https://github.com/user-attachments/assets/3435c9a7-a51b-4561-96cb-87346faecc11)![image](https://github.com/user-attachments/assets/03f3fbf9-bb47-44b3-846f-e83cbfed3aba)
 
 ## Background
 
@@ -17,14 +25,17 @@ The goal of this project is to develop a comprehensive **Financial Transaction A
 
 The dataset spans a range of metrics, including account types, transaction volumes, balance distributions, and more. With the rise of big data, the ability to visualize and interact with this data provides key insights that can guide strategic decisions for the business.
 
-This project is developed as part of a larger **Data Science Competition**, where the goal is to provide actionable insights for businesses to improve operations based on transaction data analysis.
-
 ## Dataset
 
-The dataset used in this project includes several files containing transaction-related data:
-- **Account Details**: Information regarding account types, balance, and status.
-- **Transactions**: Transaction history, including amounts, transaction types, and dates.
-- **Holiday Data**: Information on public holidays to analyze trends based on holiday impact.
+The dataset used in this project is composed of four key files:
+
+1. **ref_proyeksi_funding_list_gl.xlsx**: This file contains information about financial accounts such as account types and balances. It also includes details on the types of accounts (e.g., savings or credit accounts) and their associated codes, which are essential for identifying financial statuses and activities.
+
+2. **Ref_HariLibur.xlsx**: This file includes holiday data, marking specific dates as holidays (e.g., national holidays). It helps to examine how holidays impact transactions, providing a view into trends and behavior patterns around special dates.
+
+3. **deposits.xlsx**: This dataset provides detailed information on deposit accounts, including balance amounts, account types, and target amounts. It also contains crucial account metadata such as status (active, closed) and associated numbers for debit accounts.
+
+4. **daily_summary_gl_balance.xlsx**: This file contains daily transaction summaries, including data on account balances, currencies, and the amounts in both local and equivalent currencies. It also tracks the snapshot dates of transactions and is essential for understanding the daily movement of funds and balances.
 
 ## Preprocessing
 
@@ -57,11 +68,11 @@ The following visualizations are included in the dashboard:
 
 - **Transaction Calendar**: This heatmap-style calendar visualizes the number of transactions per week, highlighting peaks or valleys in transaction volumes across different days of the week. This is useful for detecting trends based on weekdays or specific weeks.
 
-- **Account Type Distribution**: A bar chart representing the count of different account types, helping to analyze the most popular account types among customers (e.g., **Credit**, **Deposits**, **Tabungan**).
+- **Account Type Analysis**: A bar chart showing the count of different account types, helping to analyze the most popular account types among customers (e.g., **Credit**, **Deposits**, **Tabungan**).
 
 - **Balance Per Day**: A line chart showing daily fluctuations in the total balance. This helps in understanding the daily impact of customer deposits and withdrawals.
 
-- **Transaction Count Per Day**: A line chart showing the daily number of transactions. This helps visualize transaction activity over time and identify high-traffic days.
+- **Transaction Count Per Day**: This visualization shows the daily number of transactions. It helps visualize transaction activity over time and identify high-traffic days.
 
 ## Results
 
@@ -87,3 +98,7 @@ This analysis can help the bank understand the distribution of their customersâ€
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+This version of the **README** now includes the description of the four datasets, and the link to the **Tableau dashboard** is placed at the beginning to catch users' attention. Let me know if any further changes are needed!
